@@ -1,0 +1,205 @@
+
+* {margin: 0; padding: 0;}
+
+body {
+	background: url(image/download.jfif);
+	color:white;
+	font: normal 62.5% sans-serif;
+	padding: 2% 0;
+	
+}
+
+
+a {color: red;}
+a:hover {color: #963;}
+
+
+
+
+h1 {font: normal 2.4em serif,sans-serif;}
+h1 a {text-decoration: none;}
+h1 a:hover {text-decoration: underline;}
+
+h2 {font: normal 1.6em serif,sans-serif;
+    padding:20px 20px; color:lightblue; text-align:center; }
+h3 {font: bold 1.2em serif,sans-serif; color:red; text-align:center;}
+
+
+
+img {border: none;}
+
+label {display: none;}
+li {line-height: 1.5em;}
+p {padding: 2px 0 10px;}
+small,.small {font: normal 0.9em sans-serif;}
+ul {padding: 0 2em 1.2em;}
+.download{
+	background:white url(img/nav.gif) repeat-x;
+	margin-left:10px;
+	border: 3px solid green;
+	float: right;
+	font: bold 1em Tahoma,sans-serif;
+	padding: 0 14px;
+	line-height: 41px;
+	text-align: center;
+	text-decoration: none;
+	
+}
+/* structure */
+#wrapper {
+
+	margin: 0 auto;
+	width:90%;
+	
+	
+
+}
+
+
+#container {
+	background:url(image/bk.jpeg);	
+
+	font-size: `1.3em;
+
+	line-height: 1.3em;
+	margin: 0 auto;
+	width:100%;
+	}
+
+/* header */
+.title {
+	background:url(bk.jpg);
+	border-top: solid whitesmoke;
+	padding: 10px;
+	text-align:center;
+	
+}
+.title h1 {
+	color:whitesmoke;
+	font: normal 2.2em Georgia,"Trebuchet MS",sans-serif;
+	padding: 10px 0 10px 18px;
+	font-size: 125px;
+}
+
+
+/* navigation */
+.navigation {
+	background: #DED9D0 url(img/nav.gif) repeat-x; height: 45px;
+	border-top: 2px solid greenyellow;
+	border-bottom: 2px solid greenyellow;
+	padding:0 350px ;
+}
+
+.navigation a {
+	background:gray url(img/nav.gif) repeat-x;
+	margin-left:10px;
+	border: 1px solid greenyellow;
+	color: white;
+	float: left;
+	font: bold 1.5em Tahoma,sans-serif;
+	padding: 0 14px;
+	line-height: 41px;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation a:hover,.navigation a#active {background-position: left bottom; color:#331;}
+
+/* main */
+.main#two-columns {background: #FFF url(img/two-columns.gif) repeat-x -y; }
+
+.box
+{
+	border:3px solid white;  margin:5px;
+
+}
+img
+{
+	border-radius: 50%; margin:25px 25px; width: 250px; height:200px;
+		
+	
+}
+video
+{
+margin: 15px;
+
+}
+
+
+/*form*/
+.my-form 
+{
+
+padding:40px;
+
+}
+.my-form textarea
+{
+
+	padding:8px;
+	width:70%;
+	height:10%
+}
+.my-form input
+{
+	width :25%;
+	height:3%
+}
+.form-group
+{
+	padding:5px;
+}
+	{
+     padding:12px 20px;
+
+	}
+}
+.social
+{
+	margin-left:50px;
+	text-align:center;
+}
+/* footer */
+.footer {
+	background: #332;
+	color:red;
+	padding:15px;
+}
+.footer .left {color:lime; font-style:italic }
+.footer .right {
+	width: 33%;
+	text-align: right;
+}
+.footer a {
+	color: #FFF;
+	text-decoration: none;
+}
+.footer a:hover, .footer .right a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+.footer .right,.footer .right a {color:lime;}
+/* bottom */
+.bottom {
+	background: #DCDAC9 url(img/bottom.gif) no-repeat left bottom;
+	border-top: 1px solid #AA8;
+	color:blue;
+	padding: 5px 20px;
+	text-align:center;
+}
+
+
+
+
+/* misc */
+.clear,.clearer {clear: both;} 
+.clearer {font-size: 0;}
+.col2 .left {width: 100%;  line-height:1.5em; font-size:13pt;}
+.col2 .right .content {background: white;}
+.col2 .right {width: 33%; 	web-kit-radius:5px 5px 0px 0px;}
+.content {padding: 60px 70px; margin:20px; }
+.left {float: center; font-size:15;}
+.right {float: right; font-size:13;}
+.right .content {padding: 18px 12px 12px;}
+
+
+
